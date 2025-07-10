@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shared Style */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    line-height: 150%;
+    cursor: pointer;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+/* Header Section Styles */
+.header{
+    width: 1440px;
+    height: 700px;
+    background-image: url("../Assets/Hero-bg.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+/* Nav Section Styles */
+.nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero{
+    text-align: center;
+    margin: 152px 0;
+}
+.hero-title{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 36px;
+    color: #252432;
+}
+
