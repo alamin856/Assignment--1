@@ -61,3 +61,26 @@
     color: #252432;
 }
 
+/* Main Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Action Section Styles */
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 116px 0;
+}
+.action-description{
+    color: #6e6b94;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 24px 0;
+}
+.action img{
+    border-radius: 48px;
+}
+
