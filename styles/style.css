@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 /* Shared Style */
-
+body{
+    background-color:  #f5f8ff;
+}
 .raleway-sans {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -64,6 +66,7 @@
     cursor: pointer;
 }
 
+
 /* Hero Section Styles */
 .hero{
     text-align: center;
@@ -88,7 +91,8 @@ main{
     align-items: center;
     justify-content: space-between;
     gap: 200px;
-    padding: 116px 0;
+    background-color: #FFFFFF;
+    margin-top: 116px;
 }
 .action-description{
     color: #6e6b94;
@@ -106,6 +110,7 @@ main{
     padding: 50px 80px;
     border-radius: 24px;
     text-align: center;
+    margin-top: 116px;
 }
 .items{
     display: flex;
@@ -138,8 +143,12 @@ main{
 .users-items{
     padding: 24px;
     border-radius: 14px;
-    background-color: #e6e6e6;
-    box-shadow: 2px 2px 4px #808080;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 8px #808080;
+    transition: 0.2s ease-in;
+}
+.users-items:hover{
+    background-color: #e6e6ff;
 }
 .img{
     margin-bottom: 24px;
@@ -249,6 +258,7 @@ form input, textarea{
     width: 1440px;
     height: 428px;
     margin: 0 auto;
+    margin-top: 14px;
 }
 .footer-container{
     max-width: 1140px;
@@ -259,6 +269,7 @@ form input, textarea{
 .footer-logo{
     font-size: 100px;
     color: #4E47FF;
+    cursor: pointer;
 }
 .footer-description{
     font-size: 16px;
@@ -269,7 +280,8 @@ form input, textarea{
 .footer li{
     list-style: none;
     display: inline;
-    margin-right: 48px;
+    margin: 0 24px;
+    text-align: center;
 }
 .footer li a{
     text-decoration: none;
