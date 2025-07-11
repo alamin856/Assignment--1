@@ -44,7 +44,6 @@ body{
 
 /* Header Section Styles */
 .header{
-    width: 1440px;
     height: 700px;
     background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
@@ -91,7 +90,6 @@ main{
     align-items: center;
     justify-content: space-between;
     gap: 200px;
-    background-color: #FFFFFF;
     margin-top: 116px;
 }
 .action-description{
@@ -106,11 +104,14 @@ main{
 
 /* Productive Section Styles */
 .productive{
-    background-color: #e6e6ff;
+    background-color: #4E47FF1A;
     padding: 50px 80px;
     border-radius: 24px;
     text-align: center;
     margin-top: 116px;
+}
+.productive-title{
+    font-size: 38px;
 }
 .items{
     display: flex;
@@ -146,9 +147,10 @@ main{
     background-color: #ffffff;
     box-shadow: 2px 2px 8px #808080;
     transition: 0.2s ease-in;
+    border: 1px solid #FFFFFF80;
 }
 .users-items:hover{
-    background-color: #e6e6ff;
+    background-color: #4E47FF1A;
 }
 .img{
     margin-bottom: 24px;
@@ -224,7 +226,6 @@ main{
     align-items: center;
     margin-top: 92px;
     padding: 70px 0;
-    background-color: #FFFFFF;
 }
 .letter-title{
     font-size: 98px;
@@ -250,12 +251,12 @@ form input, textarea{
     font-size: 20px;
     line-height: 150%;
     color: #808080;
+    background-color: #ffffff;
 }
 
 /* Footer Section Styles */
 .footer{
     background-color: #FFFFFF;
-    width: 1440px;
     height: 428px;
     margin: 0 auto;
     margin-top: 14px;
